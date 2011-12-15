@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include?(lib)
 require "mustache_field/version"
 
 Gem::Specification.new do |s|
-  s.name        = "current"
+  s.name        = "mustache_field"
   s.version     = MustacheField::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["kuruma3"]
