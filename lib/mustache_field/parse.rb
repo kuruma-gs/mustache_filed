@@ -14,7 +14,7 @@ module MustacheField
         Mustache.render s, h
       end
 
-      def parsed_fields *attrs
+      def mustache_fields *attrs
         if self.include? MustacheField::Vars
           attrs.each do |attr|
             define_method "parsed_#{attr}" do |hash={}|
