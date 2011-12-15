@@ -5,6 +5,7 @@ $:.unshift(File.dirname(__FILE__)) unless
 
 require File.join(File.dirname(__FILE__),'mustache_field/vars.rb')
 require File.join(File.dirname(__FILE__),'mustache_field/parse.rb')
+require File.join(File.dirname(__FILE__),'mustache_field/version.rb')
 
 module MustacheField
   def self.included base
